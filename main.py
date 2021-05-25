@@ -21,6 +21,7 @@
 
     Usare la codebase a scopi commerciali
 """
+
 import telegram
 import requests
 import speech_recognition as sr
@@ -100,4 +101,4 @@ while True:
                         testo_ottenuto = audio_recognizer.recognize_google(audio_data,language="it-IT")
 
                         # Invio una conferma all'utente con un messaggio
-                        chatbot.sendMessage(chat_id=last.message.chat_id,text=f"Dovresti avermi detto qualcosa come {text}")
+                        chatbot.sendMessage(chat_id=last.message.chat_id,text=f"Dovresti avermi detto qualcosa come {testo_ottenuto}")
