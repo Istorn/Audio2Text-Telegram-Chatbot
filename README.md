@@ -10,7 +10,7 @@ Il chatbot si basa sulla seguente archiettura:
 
 ![Immagine dell'architettura](https://lorenzoneri.com/wp-content/uploads/2021/05/algoritmo-1024x650.jpg)
 
-Per maggior informazioni a riguardo, è possibile consultare l'articolo presente sul mio blog: [Scopri di più](https://lorenzoneri.com)
+Per maggior informazioni a riguardo, è possibile consultare l'articolo presente sul mio blog: [Scopri di più](https://lorenzoneri.com/chatbot-telegram-conversione-note-vocali-in-messaggi/)
 
 ### Installazione, dipendenze ed uso
 
