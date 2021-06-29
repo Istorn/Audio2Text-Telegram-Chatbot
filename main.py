@@ -102,3 +102,7 @@ while True:
 
                         # Invio una conferma all'utente con un messaggio
                         chatbot.sendMessage(chat_id=last.message.chat_id,text=f"Dovresti avermi detto qualcosa come {testo_ottenuto}")
+                if hasattr(last.message,"text"):
+                    message=last.message.text
+                    if "help" in message or "start" in message:
+                        chatbot.sendMessage(chat_id=last.message.chat_id,text=f"Ciao! Sono un chatbot di Lorenzo Neri in grado di convertire ciò che mi dici in una nota audio in testo.\nPosso tornarti comodo se non hai voglia di ascoltare gli audio dei tuoi amici, puoi inoltrarmeli ;)\n\nPer usare la mia magia, ti è sufficiente mandarmi un messaggio vocale!")
