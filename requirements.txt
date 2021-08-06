@@ -1,0 +1,6 @@
+SpeechRecognition==3.8.1
+pydub==0.25.1
+python_telegram_bot==13.2
+requests==2.24.0
+pytest==6.1.2
+telegram==0.0.1

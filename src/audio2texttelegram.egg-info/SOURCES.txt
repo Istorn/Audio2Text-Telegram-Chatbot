@@ -1,0 +1,6 @@
+.gitignore
+setup.py
+src/audio2texttelegram.egg-info/PKG-INFO
+src/audio2texttelegram.egg-info/SOURCES.txt
+src/audio2texttelegram.egg-info/dependency_links.txt
+src/audio2texttelegram.egg-info/top_level.txt
