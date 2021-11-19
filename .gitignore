@@ -3,3 +3,9 @@ lastanswered.txt
 ./src/__pycache__/*
 ./__pycache__/*
 ./__pycache__
+.vscode/
+	.wav
+	__pycache__/
+	audio2texttelegram.egg-info/
+	testNotaAudio.oga
+*.pyc
