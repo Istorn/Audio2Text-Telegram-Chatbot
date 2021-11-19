@@ -1,2 +1,5 @@
 lastanswered.txt
 ./test/personal_token.txt
+./src/__pycache__/*
+./__pycache__/*
+./__pycache__
